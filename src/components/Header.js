@@ -1,19 +1,34 @@
 import React from "react";
 import '../index.css';
+import { Home } from './Home';
+import { useState } from "react";
+import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
+
 
 export function Header() {
+    const [isShown, setIsShown] = useState(false);
+
+    const handleClick = event => {
+        setIsShown(current => !current)
+    }
+
     return(
-        <div className="header">
-            <nav>
-                <ul>
-                    <li id="nav-item"><a href="#">About Me</a></li>
-                    <li id="nav-item"><a href="#">Skills</a></li>
-                    <li id="nav-item"><a href="#">Contact</a></li>
-                    <li id="nav-item"><a href="#">Home</a></li>
-                </ul>
-                <h2>Allan Araya</h2>
-            </nav>
-        </div>
+        
+            <div className="header">
+                <nav>
+                    <ul>
+                        <li id="nav-item">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li id="nav-item" ><Link to="/about">About Me</Link></li>
+                        <li id="nav-item" >Skills</li>
+                        <li id="nav-item" >Contact</li>
+                    </ul>
+                    
+                    <h2>Allan Araya</h2>
+                </nav>
+            </div>
+
 
     );
 }

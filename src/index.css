@@ -27,13 +27,23 @@ nav h2 {
   margin: auto 50px;
 }
 
-nav li {
+nav ul {
+  float: right;
+  text-align: center;
   
+}
+nav li {
+  text-decoration: underline;
+  display: inline;
   list-style: none;
   text-align: center;
   padding: 10px;
-  float: right;
   margin: auto 10px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 #nav-item a{
@@ -42,6 +52,13 @@ nav li {
 
 #nav-item a:hover{
   text-decoration: none;
+}
+
+/*Body*/
+
+.body-container {
+  margin-top: 100px;
+  backdrop-filter: blur(10px);
 }
 
 
