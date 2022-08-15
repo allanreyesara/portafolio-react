@@ -1,6 +1,5 @@
 import React from "react";
 import '../index.css';
-import { useState } from "react";
 
 export function About() {
     return(

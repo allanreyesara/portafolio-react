@@ -20,9 +20,15 @@ export function Header() {
                         <li id="nav-item">
                             <Link to="/">Home</Link>
                         </li>
-                        <li id="nav-item" ><Link to="/about">About Me</Link></li>
-                        <li id="nav-item" >Skills</li>
-                        <li id="nav-item" >Contact</li>
+                        <li id="nav-item" >
+                            <Link to="/about">About Me</Link>
+                        </li>
+                        <li id="nav-item" >
+                            <Link to="/skills">Skills</Link>
+                        </li>
+                        <li id="nav-item" >
+                            <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
                     
                     <h2>Allan Araya</h2>

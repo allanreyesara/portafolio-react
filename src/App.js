@@ -2,9 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component }  from 'react';
 import { Header } from './components/Header';
-import { Home } from './components/Home';
-import { Routers } from './components/Routes'
-import { useState } from 'react';
+import { Routers } from './components/Routes';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
