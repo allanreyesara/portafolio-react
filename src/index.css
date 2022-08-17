@@ -117,3 +117,22 @@ img {
   border-radius: 50%;
 }
 
+/* About Me */
+
+.Aboutme-container {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  height: 200px;
+  width: 70%;
+}
+
+
+.aboutme-text p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.6;
+}
+
