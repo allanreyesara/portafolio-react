@@ -13,7 +13,7 @@ export function Home() {
                 <button className="contactButton" onClick={() => navigate("/contact")}>Contact Me!</button>
             </div>
             <div className="photo-Allan">
-                <img src='https://i.postimg.cc/pLHC4SLg/pfp.png' alt="photo of Allan"></img>
+                <img src='https://i.postimg.cc/pLHC4SLg/pfp.png' alt="photo of Allan" id="allan-photo"></img>
             </div>
         </div>
     );
