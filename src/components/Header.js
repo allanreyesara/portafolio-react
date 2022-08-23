@@ -6,12 +6,6 @@ import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
 
 
 export function Header() {
-    const [isShown, setIsShown] = useState(false);
-
-    const handleClick = event => {
-        setIsShown(current => !current)
-    }
-
     return(
         
             <div className="header">
